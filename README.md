@@ -1,49 +1,59 @@
-# SOURA — Drinking Water Delivery (Redesign)
+# SOURA — Spring Water Delivery Website Template
 
-A premium, framework-free redesign of the **Acuas · Drinking Water Website Template** (source zip: `source/Acuas.zip`).
+A complete, responsive website template for bottled-water delivery, beverage brands, and subscription home-delivery services. SOURA is built as a calm, premium multi-page site that sells a natural product with the quiet confidence of a small, trusted spring-water company.
 
-> Reimagined as **SOURA**, a fictional northern-highlands spring-water brand. English / LTR only.
+Whether you run a water-delivery business, a healthy-beverage brand, a coffee or juice subscription, or any home-delivery commerce site, this template gives you a polished, production-ready starting point — no frameworks, no build step, just clean HTML, CSS, and JavaScript you can host anywhere.
 
-## What changed
-The original was a Bootstrap-based HTMLCodex template with a generic carousel hero and placeholder copy. This rebuild:
+## What's inside
 
-- **Drops all frameworks** — pure semantic HTML, hand-written CSS (token-driven design system), and vanilla JS. No Bootstrap, no Tailwind, no build step.
-- **New brand identity** — "SOURA", a calm, natural, trustworthy water brand with its own name, voice and visual language.
-- **New Design DNA** — aqua-teal + warm-sand palette, Fraunces (display) × Hanken Grotesk (body), fluid organic layouts, generous whitespace.
-- **Real, specific copy** — no Lorem Ipsum, no "Elevate/Seamless" clichés, believable names, prices and stats.
-- **Motion with purpose** — scroll reveals, count-up stats, floating hero badges, drifting droplets, all respecting `prefers-reduced-motion`.
-- **Accessibility** — semantic landmarks, visible focus, keyboard nav, ARIA on the mobile toggle, reduced-motion support.
-
-## Design DNA (summary)
-- **Philosophy:** water as a quiet daily ritual of purity and care.
-- **Personality:** Premium · Natural · Calm · Trustworthy.
-- **Palette:** aqua teal `#0E8C82` (primary), sand gold `#D8A24A` (accent), mist `#F4F8F7` (bg), teal-ink `#0C1B1A` (text).
-- **Type:** Fraunces display + Hanken Grotesk body; tabular figures for stats.
-- **WOW moment:** split hero with a fluid SVG "blob", floating glass-bottle badges and gently rising water droplets.
+- **6 ready-made pages** covering the full customer journey: home, brand story, services, product catalogue, journal, and contact.
+- **Editorial design system** with an aqua-teal and warm-sand palette, Fraunces display type, and Hanken Grotesk body text.
+- **Token-driven CSS** (CSS custom properties) so rebranding is a matter of changing a handful of color and font variables.
+- **Vanilla JavaScript interactions** — scroll-reveal animations, count-up statistics, mobile navigation, smooth in-page anchors, and a validated contact form. No dependencies.
+- **Fully responsive** layout that adapts from phone to wide desktop.
+- **Accessible markup** with semantic HTML, ARIA labels, and `prefers-reduced-motion` support.
+- **SEO-ready** meta titles, descriptions, and structured content on every page.
 
 ## Pages
-| File | Purpose |
-|------|---------|
-| `index.html` | Home — hero, trust marquee, services, story, bottles, stats, testimonials, CTA |
-| `about.html` | Brand story, the source, the bottle loop, values, team, FAQ |
-| `service.html` | Services, how a drop works, plans, delivery areas |
-| `product.html` | Bottle & jug catalogue with prices |
-| `blog.html` | Journal — purity reports and spring notes |
-| `contact.html` | Request form (validated, no `alert()`), contact info, area check |
 
-## Structure
-```
-drinking-water-delivery-html-template/
-├─ index.html  about.html  service.html  product.html  blog.html  contact.html
-├─ assets/
-│  ├─ css/base.css      # design tokens + components + motion + responsive
-│  └─ js/main.js        # nav state, mobile menu, reveals, counters, form
-└─ README.md
-```
+| Page | File | Purpose |
+|------|------|---------|
+| Home | [index.html](index.html) | Hero, trust marquee, services, story, bottles, stats, testimonials, CTA |
+| About | [about.html](about.html) | Brand story, the source, the bottle loop, values, team, FAQ |
+| Services | [service.html](service.html) | Services, how a drop works, plans, delivery areas |
+| Products | [product.html](product.html) | Bottle & jug catalogue with prices |
+| Journal | [blog.html](blog.html) | Purity reports and spring notes |
+| Contact | [contact.html](contact.html) | Request form, contact info, delivery-area check |
 
-## Run it
-Open `index.html` in a browser — no server or install required. Imagery uses seeded `picsum.photos` placeholders; swap `src` values for real photography when available.
+## Tech stack
 
-## Notes
-- Original assets were used for reference only and are **not** copied into this folder.
-- The GitHub-Pages automation step described in the project workflow is handled separately (not generated here).
+- Pure **HTML5 + CSS3 + vanilla JavaScript**. No Bootstrap, Tailwind, React, or any other framework.
+- No bundler, no npm install, no compile step — open the file or drop it on any static host.
+- Organized assets: `assets/css/base.css` (design tokens + components) and `assets/js/main.js` (interactions).
+
+## Getting started
+
+1. Download or clone the folder.
+2. Open `index.html` in a browser, or deploy the whole folder to Netlify, Vercel, GitHub Pages, or any web server.
+3. Replace the placeholder `picsum.photos` images with your own product photography.
+4. Edit the text, prices, and tokens to match your brand.
+
+## Customization
+
+- **Colors & fonts:** edit the `:root` variables at the top of `assets/css/base.css`.
+- **Statistics:** use `data-count="140"` and optional `data-suffix="%"` on any number element.
+- **Logo:** swap the inline SVG inside every `.brand` block in the header and footer.
+- **Navigation:** the menu is shared across pages — update it once per page (six files).
+
+## Keywords
+
+spring water delivery website template, bottled water HTML template, beverage subscription site, home delivery landing page, CSS template for water brand, responsive product catalogue, vanilla JS website, no-framework web template, SEO-ready delivery site, editorial design system.
+
+## License
+
+Free to use for personal and commercial projects. Attribution appreciated, not required.
+
+---
+
+Let's Build Something Together 🚀
+https://tally.so/r/q4q1L9
